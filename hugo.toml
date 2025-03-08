@@ -1,4 +1,4 @@
-baseurl = "https://blog.gruezo.com"
+baseurl = "https://blog.gruezo.com/"
 languageCode = "en-us"
 pagination.pagerSize = 5
 
