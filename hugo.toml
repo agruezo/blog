@@ -1,6 +1,5 @@
 baseurl = "https://blog.gruezo.com"
 languageCode = "en-us"
-theme = "hugo-theme-re-terminal"
 pagination.pagerSize = 5
 
 [params]
