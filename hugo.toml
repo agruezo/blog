@@ -12,8 +12,8 @@ pagination.pagerSize = 5
   readingTime = true
   [params.banner]
     dismissible = false
-    text = "Check it out on GitHub"
-    url = "https://github.com/mirus-ua/hugo-theme-re-terminal"
+    text = "HOME"
+    url = "https://gruezo.com"
 
 [languages]
   [languages.en.params]
@@ -26,7 +26,7 @@ pagination.pagerSize = 5
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "re-Terminal"
+      logoText = "Gruezo"
       logoHomeLink = "/"
 
 [languages.en.menu]
