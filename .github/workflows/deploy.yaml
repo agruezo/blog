@@ -15,10 +15,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Hugo
+      - name: Install Hugo Extended
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true  # Ensures Hugo Extended is installed
+
+      - name: Check Hugo Version
+        run: hugo version  # Debug step to verify the installed version
 
       - name: Build Hugo Site
         run: hugo --minify
