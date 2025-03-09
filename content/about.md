@@ -1,6 +1,7 @@
 +++
 title = "About"
 date = "2024-07-30"
+draft= true
 author = "Mirus"
 hideComments=true
 +++
