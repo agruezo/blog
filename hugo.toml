@@ -9,6 +9,7 @@ theme = "re-terminal"
   showMenuItems = 3
   fullWidthTheme = false
   centerTheme = true
+  favicon = "/favicon.ico"
   readingTime = true
   [params.banner]
     dismissible = false
