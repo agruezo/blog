@@ -1,7 +1,7 @@
 baseurl = "https://blog.gruezo.com/"
 languageCode = "en-us"
 pagination.pagerSize = 5
-# theme = "re-terminal"
+theme = "re-terminal"
 
 [params]
   contentTypeName = "posts"
