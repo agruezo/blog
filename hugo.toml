@@ -74,6 +74,7 @@ theme = "re-terminal"
   # [[module.mounts]]
   #   source = 'archetypes'
   #   target = 'archetypes'
-  replacements = "github.com/mirus-ua/hugo-theme-re-terminal -> themes/re-terminal"
-[[module.imports]]
-  path = 'github.com/mirus-ua/hugo-theme-re-terminal'
+  #replacements = "github.com/mirus-ua/hugo-theme-re-terminal -> themes/re-terminal"
+
+# [[module.imports]]
+  # path = 'github.com/mirus-ua/hugo-theme-re-terminal'
