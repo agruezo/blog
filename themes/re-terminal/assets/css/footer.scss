@@ -27,7 +27,7 @@
     flex-flow: row wrap;
     flex: 1;
     align-items: $centerTheme;
-    font-size: 1rem;
+    font-size: .75rem;
     justify-content: $centerTheme;
 
     &--user {
@@ -40,7 +40,7 @@
     }
 
     span {
-      white-space: text-wrap;
+      white-space: nowrap;
     }
   }
 }
