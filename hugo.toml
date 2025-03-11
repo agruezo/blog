@@ -18,9 +18,9 @@ theme = "re-terminal"
 
 [languages]
   [languages.en.params]
-    title = "Blog"
-    subtitle = "A blog built with Hugo"
-    keywords = ""
+    title = "GRUEZO | AI, Machine Learning, Data Systems"
+    subtitle = "Sharing my journey in AI, ML, and Data Engineering. I will be exploring hands-on projects, deep learning, MLOps, and doing deep dives into AI-driven technologies and data systems."
+    keywords = "AI, Machine Learning, Data Engineering, AI Engineer, MLOps, Deep Learning, Artificial Intelligence, AI Software Development, Data Pipelines, ETL, Cloud AI, Bioinformatics AI, Predictive Analytics, AI-powered Applications, Neural Networks"
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
