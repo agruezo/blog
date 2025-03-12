@@ -36,9 +36,10 @@ theme = "re-terminal"
   #   name = "Sub menus"
   #   weight = 10
   [[languages.en.menu.main]]
-    identifier = "subabout"
+    identifier = "home"
     name = "Home"
     url = "https://gruezo.com"
+    weight = 1
   # [[languages.en.menu.main]]
   #   identifier = "subabout"
   #   name = "About"
@@ -49,10 +50,11 @@ theme = "re-terminal"
   #   name = "Showcase"
   #   url = "/showcase"
   #   parent = "submenu"
-  # [[languages.en.menu.main]]
-  #   identifier = "about"
-  #   name = "About"
-  #   url = "/about"
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 2
   # [[languages.en.menu.main]]
   #   identifier = "showcase"
   #   name = "Showcase"

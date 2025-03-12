@@ -1,42 +1,28 @@
 +++
 title = "About"
-date = "2024-07-30"
-draft= true
-author = "Mirus"
+date = "2025-03-11"
+author = "Alex"
 hideComments=true
 +++
 
+# Journey from Initiate to Grand Archmage
 
-# Hello in a new age
+Hey, I’m Alexander, but you can call me Alex. I'm on a journey to master AI, machine learning, and data-driven problem-solving. How far will I go? There's only one way to find out.
 
-You can call me Mirus and I forked the original Terminal theme for Hugo, because Radek, the original creator of the theme stop the maintenance and archived the repo. 
+I hold a Master’s in Data Science and an MBA in Organizational Management: Business Analytics, giving me a unique blend of technical expertise and strategic decision-making skills. My passion lies in building AI systems, designing scalable ML pipelines, and leveraging data to drive intelligent business solutions.
 
-So I already pushed a few improvements that I did for my humble blog and I'm going to add some more features in the future, also any contribution is welcome 
+After earning my degrees, I realized that formal education was just the beginning. So, I designed the following learning path in AI, ML, and data systems wizardry:
 
-Below you can read the original about from Radek
+>    1. *Initiate* – Learn **Python**, **discrete math**, **probability**, and **fundamental data handling**
+>    2. *Apprentice* – Learn **linear algebra**, **SQL operations**, and **probability**
+>    3. *Acolyte* – Learn **proof writing**, **data extraction**, and **foundational ML models**
+>    4. *Adept* - Master **calculus, real analysis, and data manipulation**
+>    5. *Journeyman* - Apply **multivariable calculus**, **deep learning**, and **model scaling**
+>    6. *Mage* - Master **reinforcement learning**, **Bayesian methods**, and **AI product development**
+>    7. *Master Mage* - **Architect scalable AI systems**, **advance AI ethics**, and **build AI infrastructure**
+>    8. *Archmage* - Lead **AI research teams**, **define industry-wide AI best practices**, and **influence AI strategy**
+>    9. *Grand Archmage* - Revolutionize AI through **global AI strategy**, **governance**, and **innovation**
 
-```text
-# Hi there
+When I’m not experimenting with machine learning models or fine-tuning AI systems, you’ll probably find me working out, doing Filipino martial arts, or hacking away on my laptop.
 
-My name is Radek and I'm the author of this theme.
-I made it to help you present your ideas easier.
-
-We all know how hard is to start something on the web,
-especially these days. You need to prepare a bunch of stuff,
-configure them and when that’s done — create the content.
-
-This theme is pretty basic and covers all of the essentials.
-All you have to do is start typing!
-
-The theme includes:
-
-- **5 duotone themes**,
-depending on your preferences (orange, red, blue, green, pink)
-- [**Fira Code**](https://github.com/tonsky/FiraCode)
-as default monospaced font. It's gorgeous!
-- **really nice, custom duotone** syntax highlighting based on
-[**PrismJS**](https://prismjs.com)
-- mobile friendly layout
-
-So, there you have it... enjoy!
-```
+On this blog, I share what I learn — whether it’s experimenting with AI, exploring financial forecasting, or breaking down complex ML concepts. Let’s build, learn, and push forward together!
