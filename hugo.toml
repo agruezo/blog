@@ -28,7 +28,7 @@ theme = "re-terminal"
 
     [languages.en.params.logo]
       logoText = "Gruezo"
-      logoHomeLink = "/"
+      logoHomeLink = "https://gruezo.com/"
 
 [languages.en.menu]
   # [[languages.en.menu.main]]
@@ -36,9 +36,9 @@ theme = "re-terminal"
   #   name = "Sub menus"
   #   weight = 10
   [[languages.en.menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "https://gruezo.com"
+    identifier = "main"
+    name = "Main"
+    url = "/"
     weight = 1
   # [[languages.en.menu.main]]
   #   identifier = "subabout"
