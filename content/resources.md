@@ -1,6 +1,5 @@
 +++
 date = "2025-03-12"
-draft = true
 title = "Resources"
 author = "Alex"
 hideComments=true
