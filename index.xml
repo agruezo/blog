@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on</title><link>https://blog.gruezo.com/</link><description>Recent content in Welcome on</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.gruezo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Resources</title><link>https://blog.gruezo.com/resources/</link><pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate><guid>https://blog.gruezo.com/resources/</guid><description>&lt;h2 id="computer-science">Computer Science&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DMRlOf">The Structure and Interpretation of Computer Programs&lt;/a>&lt;/strong> - Harold Abelson&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/423oZIY">Computer Systems - A Programmer&amp;rsquo;s Perspective&lt;/a>&lt;/strong> - Randall E. Bryant &amp;amp; David R. O&amp;rsquo;Hallaron&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/41XYF2V">The Algorithm Design Manual&lt;/a>&lt;/strong> - Steven S. Skiena&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3FnMTpX">A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills&lt;/a>&lt;/strong> – Jay Wengrow&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4bPDKCn">Mathematics for Computer Science&lt;/a>&lt;/strong> - Eric Lehman, F. Thomson Leighton, &amp;amp; Albert R. Meyer&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3R4UbkN">Computer Networking - A Top Down Approach&lt;/a>&lt;/strong> - James F. Kurose&lt;/p></description><content>&lt;h2 id="computer-science">Computer Science&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DMRlOf">The Structure and Interpretation of Computer Programs&lt;/a>&lt;/strong> - Harold Abelson&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/423oZIY">Computer Systems - A Programmer&amp;rsquo;s Perspective&lt;/a>&lt;/strong> - Randall E. Bryant &amp;amp; David R. O&amp;rsquo;Hallaron&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/41XYF2V">The Algorithm Design Manual&lt;/a>&lt;/strong> - Steven S. Skiena&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3FnMTpX">A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills&lt;/a>&lt;/strong> – Jay Wengrow&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4bPDKCn">Mathematics for Computer Science&lt;/a>&lt;/strong> - Eric Lehman, F. Thomson Leighton, &amp;amp; Albert R. Meyer&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3R4UbkN">Computer Networking - A Top Down Approach&lt;/a>&lt;/strong> - James F. Kurose&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4hwUIqm">Crafting Interpreters&lt;/a>&lt;/strong> - Robert Nystrom&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4bPiDQA">Designing Data-Intensive Applications - The Big Ideas Behind Reliable, Scalable, and Maintainable Systems&lt;/a>&lt;/strong> - Martin Kleppmann&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/43H7PSE">Distributed Systems&lt;/a>&lt;/strong> - Maarten Van Steen, Andrew S. Tanenbaum&lt;/p>&lt;/blockquote>
+&lt;h2 id="data-science">Data Science&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3Dr9Gk5">Introducing Python - Modern Computing in Simple Packages&lt;/a>&lt;/strong> - Bill Lubanovic&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3R4NYFv">An Introduction to Statistical Learning with Applications in Python&lt;/a>&lt;/strong> - Gareth James&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4htLvz9">Fluent Python - Clear, Concise, and Effective Programming&lt;/a>&lt;/strong> - Luciano Ramahlo&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/41ZT10a">Learning SQL - Generate, Manipulate, and Retrieve Data&lt;/a>&lt;/strong> - Alan Beaulieu&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DrngUz">Python for Data Analysis - Data Wrangling with NumPy, Pandas &amp;amp; Jupyter&lt;/a>&lt;/strong> - Wes McKinney&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3FBcICI">Python Data Science Handbook - Essential Tools for Working with Data&lt;/a>&lt;/strong> - Jake VanderPlas&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3Ds849H">Hands-On Machine Learning with Scikit-Learn, Keras &amp;amp; TensorFlow - Concepts, Tools, and Techniques to Build Intelligent Systems&lt;/a>&lt;/strong> – Aurélien Géron&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4hwPWZY">AI and Machine Learning for Coders - A Programmer&amp;rsquo;s Guide to Artificial Intelligence&lt;/a>&lt;/strong> - Laurence Moroney&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4iN5eLe">Applied Machine Learning and AI for Engineers - Solve Business Problems That Can&amp;rsquo;t Be Solved Algorithmically&lt;/a>&lt;/strong> - Jeff Prosise&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4iqKr0b">Architecture Patterns with Python - Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices&lt;/a>&lt;/strong> - Harry J.W. Percival &amp;amp; Bob Gregory&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DE84TV">Designing Machine Learning Systems - An Iterative Process for Production-Ready Applications&lt;/a>&lt;/strong> - Chip Huyen&lt;/p>&lt;/blockquote></content></item><item><title>About</title><link>https://blog.gruezo.com/about/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://blog.gruezo.com/about/</guid><description>&lt;h1 id="journey-from-initiate-to-grand-archmage">Journey from Initiate to Grand Archmage&lt;/h1>
+&lt;p>Hey, I’m Alexander, but you can call me Alex. I&amp;rsquo;m on a journey to master AI, machine learning, and data-driven problem-solving. Where that takes me, I don&amp;rsquo;t know. But I am looking forward to seeing what comes out of it.&lt;/p>
+&lt;p>I hold a Master’s in Data Science and an MBA in Organizational Management: Business Analytics, giving me a unique blend of technical expertise and strategic decision-making skills. My passion lies in building AI systems, designing scalable ML pipelines, and leveraging data to drive intelligent business solutions.&lt;/p></description><content>&lt;h1 id="journey-from-initiate-to-grand-archmage">Journey from Initiate to Grand Archmage&lt;/h1>
+&lt;p>Hey, I’m Alexander, but you can call me Alex. I&amp;rsquo;m on a journey to master AI, machine learning, and data-driven problem-solving. Where that takes me, I don&amp;rsquo;t know. But I am looking forward to seeing what comes out of it.&lt;/p>
+&lt;p>I hold a Master’s in Data Science and an MBA in Organizational Management: Business Analytics, giving me a unique blend of technical expertise and strategic decision-making skills. My passion lies in building AI systems, designing scalable ML pipelines, and leveraging data to drive intelligent business solutions.&lt;/p>
+&lt;p>After earning my degrees, I realized that formal education was just the beginning. So, I designed the following learning path in AI, ML, and data systems wizardry:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;strong>Initiate&lt;/strong>&lt;/em> – Learn Python, discrete math, probability, and fundamental data handling&lt;/p>
+&lt;p>&lt;em>&lt;strong>Apprentice&lt;/strong>&lt;/em> – Learn linear algebra, SQL operations, and probability&lt;/p>
+&lt;p>&lt;em>&lt;strong>Acolyte&lt;/strong>&lt;/em> – Learn proof writing, data extraction, and foundational ML models&lt;/p>
+&lt;p>&lt;em>&lt;strong>Adept&lt;/strong>&lt;/em> - Master calculus, real analysis, and data manipulation&lt;/p>
+&lt;p>&lt;em>&lt;strong>Journeyman&lt;/strong>&lt;/em> - Apply multivariable calculus, deep learning, and model scaling&lt;/p>
+&lt;p>&lt;em>&lt;strong>Mage&lt;/strong>&lt;/em> - Master reinforcement learning, Bayesian methods, and AI product development&lt;/p>
+&lt;p>&lt;em>&lt;strong>Master Mage&lt;/strong>&lt;/em> - Architect scalable AI systems, advance AI ethics, and build AI infrastructure&lt;/p>
+&lt;p>&lt;em>&lt;strong>Archmage&lt;/strong>&lt;/em> - Lead AI research teams, define industry-wide AI best practices, and influence AI strategy&lt;/p>
+&lt;p>&lt;em>&lt;strong>Grand Archmage&lt;/strong>&lt;/em> - Revolutionize AI through global AI strategy, governance, and innovation&lt;/p>&lt;/blockquote>
+&lt;p>When I’m not experimenting with machine learning models or fine-tuning AI systems, you’ll probably find me working out, doing Filipino martial arts, or hacking away on my laptop.&lt;/p>
+&lt;p>In this blog, I share what I learn — whether it’s experimenting with AI, exploring financial forecasting, or breaking down complex ML concepts. Let’s build, learn, and push forward together!&lt;/p></content></item></channel></rss>
