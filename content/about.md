@@ -7,7 +7,7 @@ hideComments=true
 
 # Journey from Initiate to Grand Archmage
 
-Hey, I’m Alexander, but you can call me Alex. I'm on a journey to master AI, machine learning, and data-driven problem-solving. How far will I go? There's only one way to find out.
+Hey, I’m Alexander, but you can call me Alex. I'm on a journey to master AI, machine learning, and data-driven problem-solving. Where that takes me, I don't know. But I am looking forward to seeing what comes out of it.
 
 I hold a Master’s in Data Science and an MBA in Organizational Management: Business Analytics, giving me a unique blend of technical expertise and strategic decision-making skills. My passion lies in building AI systems, designing scalable ML pipelines, and leveraging data to drive intelligent business solutions.
 
@@ -18,7 +18,7 @@ After earning my degrees, I realized that formal education was just the beginnin
 >    
 >   ***Apprentice*** – Learn linear algebra, SQL operations, and probability
 >    
->   ***Acolyte*** – Learn **proof writing, **data extraction, and foundational ML models
+>   ***Acolyte*** – Learn proof writing, data extraction, and foundational ML models
 >    
 >   ***Adept*** - Master calculus, real analysis, and data manipulation
 >    
