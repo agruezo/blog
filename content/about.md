@@ -13,16 +13,25 @@ I hold a Master’s in Data Science and an MBA in Organizational Management: Bus
 
 After earning my degrees, I realized that formal education was just the beginning. So, I designed the following learning path in AI, ML, and data systems wizardry:
 
->    1. *Initiate* – Learn **Python**, **discrete math**, **probability**, and **fundamental data handling**
->    2. *Apprentice* – Learn **linear algebra**, **SQL operations**, and **probability**
->    3. *Acolyte* – Learn **proof writing**, **data extraction**, and **foundational ML models**
->    4. *Adept* - Master **calculus, real analysis, and data manipulation**
->    5. *Journeyman* - Apply **multivariable calculus**, **deep learning**, and **model scaling**
->    6. *Mage* - Master **reinforcement learning**, **Bayesian methods**, and **AI product development**
->    7. *Master Mage* - **Architect scalable AI systems**, **advance AI ethics**, and **build AI infrastructure**
->    8. *Archmage* - Lead **AI research teams**, **define industry-wide AI best practices**, and **influence AI strategy**
->    9. *Grand Archmage* - Revolutionize AI through **global AI strategy**, **governance**, and **innovation**
+>    
+>   ***Initiate*** – Learn Python, discrete math, probability, and fundamental data handling
+>    
+>   ***Apprentice*** – Learn linear algebra, SQL operations, and probability
+>    
+>   ***Acolyte*** – Learn **proof writing, **data extraction, and foundational ML models
+>    
+>   ***Adept*** - Master calculus, real analysis, and data manipulation
+>    
+>   ***Journeyman*** - Apply multivariable calculus, deep learning, and model scaling
+>    
+>   ***Mage*** - Master reinforcement learning, Bayesian methods, and AI product development
+>    
+>   ***Master Mage*** - Architect scalable AI systems, advance AI ethics, and build AI infrastructure
+>    
+>   ***Archmage*** - Lead AI research teams, define industry-wide AI best practices, and influence AI strategy
+>    
+>   ***Grand Archmage*** - Revolutionize AI through global AI strategy, governance, and innovation
 
 When I’m not experimenting with machine learning models or fine-tuning AI systems, you’ll probably find me working out, doing Filipino martial arts, or hacking away on my laptop.
 
-On this blog, I share what I learn — whether it’s experimenting with AI, exploring financial forecasting, or breaking down complex ML concepts. Let’s build, learn, and push forward together!
+In this blog, I share what I learn — whether it’s experimenting with AI, exploring financial forecasting, or breaking down complex ML concepts. Let’s build, learn, and push forward together!
