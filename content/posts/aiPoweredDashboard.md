@@ -113,6 +113,6 @@ I’ll continue refining it by:
 - Supporting advanced formatting (headings, lists)
 - Packaging it for internal use or monetization
 
-Stay tuned — or [reach out](mailto:alex@gruezo.com) if you want help building something like this for your team.
+Stay tuned — or <a href="https://www.gruezo.com/resume#contact" target="_blank" rel="noopener noreferrer">reach out</a> if you want help building something like this for your team.
 
 ---
