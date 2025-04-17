@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on</title><link>https://blog.gruezo.com/</link><description>Recent content in Welcome on</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.gruezo.com/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Powered Dashboard</title><link>https://blog.gruezo.com/posts/aipowereddashboard/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://blog.gruezo.com/posts/aipowereddashboard/</guid><description>&lt;h1 id="building-a-local-ai-powered-kpi-dashboard-with-streamlit-and-ollama">Building a Local AI-Powered KPI Dashboard with Streamlit and Ollama&lt;/h1>
+&lt;p>In this project, I built a sleek, brand-aligned &lt;strong>business intelligence dashboard&lt;/strong> powered entirely by &lt;strong>local AI&lt;/strong> — no API keys, no cloud dependencies. Just &lt;strong>Python, Streamlit, and Ollama&lt;/strong> running smart and fast right on my machine.&lt;/p>
+&lt;!-- [
+&lt;img src="https://blog.gruezo.com/img/ai-powered-dashboard-thumb.png" alt="Data Science" class="center" style="border: 10px solid #23B0FF; padding: 8px; background: #1e202c;" />
+](/img/ai-powered-dashboard.png) -->
+&lt;a href="https://blog.gruezo.com/img/ai-powered-dashboard-center-full.png" target="_blank" rel="noopener noreferrer">
+&lt;figure class="center" >
+&lt;img src="https://blog.gruezo.com/img/ai-powered-dashboard-center-thumb.png" alt="AI Powered Dashboard" style="border: 10px solid #23B0FF; padding: 8px; background: #1e202c;" />
+&lt;figcaption class="center" style="color: white;" >Click On Image&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;hr>
+&lt;h2 id="-the-goal">🎯 The Goal&lt;/h2>
+&lt;p>Create a lightweight yet powerful app that lets users:&lt;/p></description><content>&lt;h1 id="building-a-local-ai-powered-kpi-dashboard-with-streamlit-and-ollama">Building a Local AI-Powered KPI Dashboard with Streamlit and Ollama&lt;/h1>
+&lt;p>In this project, I built a sleek, brand-aligned &lt;strong>business intelligence dashboard&lt;/strong> powered entirely by &lt;strong>local AI&lt;/strong> — no API keys, no cloud dependencies. Just &lt;strong>Python, Streamlit, and Ollama&lt;/strong> running smart and fast right on my machine.&lt;/p>
+&lt;!-- [
+&lt;img src="https://blog.gruezo.com/img/ai-powered-dashboard-thumb.png" alt="Data Science" class="center" style="border: 10px solid #23B0FF; padding: 8px; background: #1e202c;" />
+](/img/ai-powered-dashboard.png) -->
+&lt;a href="https://blog.gruezo.com/img/ai-powered-dashboard-center-full.png" target="_blank" rel="noopener noreferrer">
+&lt;figure class="center" >
+&lt;img src="https://blog.gruezo.com/img/ai-powered-dashboard-center-thumb.png" alt="AI Powered Dashboard" style="border: 10px solid #23B0FF; padding: 8px; background: #1e202c;" />
+&lt;figcaption class="center" style="color: white;" >Click On Image&lt;/figcaption>
+&lt;/figure>
+&lt;/a>
+&lt;hr>
+&lt;h2 id="-the-goal">🎯 The Goal&lt;/h2>
+&lt;p>Create a lightweight yet powerful app that lets users:&lt;/p>
+&lt;ul>
+&lt;li>Upload or use built-in business KPI data&lt;/li>
+&lt;li>Visualize revenue, profit, and conversion trends&lt;/li>
+&lt;li>Generate AI-powered summaries and insights&lt;/li>
+&lt;li>Ask follow-up questions using natural language&lt;/li>
+&lt;li>Export clean PDF reports — charts included&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-the-tech-stack">🔧 The Tech Stack&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Layer&lt;/th>
+&lt;th>Tech&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Frontend&lt;/td>
+&lt;td>Streamlit (Python)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Charts&lt;/td>
+&lt;td>Matplotlib&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AI Engine&lt;/td>
+&lt;td>Ollama + Mistral model&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PDF Export&lt;/td>
+&lt;td>FPDF&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Storage&lt;/td>
+&lt;td>&lt;code>tempfile&lt;/code>, CSV, session&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="-what-the-app-does">🧱 What the App Does&lt;/h2>
+&lt;h4 id="-1-upload-or-simulate-business-data">📊 1. Upload or Simulate Business Data&lt;/h4>
+&lt;p>The app loads default revenue, expenses, leads, and client data — or allows the user to upload a custom CSV. It auto-generates calculated fields like:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Profit&lt;/strong> = Revenue - Expenses&lt;/li>
+&lt;li>&lt;strong>Conversion Rate&lt;/strong> = Clients ÷ Leads&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="-2-visualize-kpis">📈 2. Visualize KPIs&lt;/h4>
+&lt;p>Three clean, responsive charts are generated with Matplotlib:&lt;/p>
+&lt;ul>
+&lt;li>Revenue vs. Expenses (Line Chart)&lt;/li>
+&lt;li>Monthly Profit (Bar Chart)&lt;/li>
+&lt;li>Conversion Rate (Line Chart)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="-3-generate-ai-summaries">🧠 3. Generate AI Summaries&lt;/h4>
+&lt;p>Click a button and get a GPT-style summary of your data using &lt;strong>Ollama&lt;/strong> + a locally-running &lt;strong>Mistral&lt;/strong> model — no API required.&lt;/p>
+&lt;p>Summaries are cached in &lt;code>session_state&lt;/code>, so they persist between interactions and don&amp;rsquo;t get overwritten by the chat module.&lt;/p>
+&lt;hr>
+&lt;h4 id="-4-ask-the-model-business-questions">💬 4. Ask the Model Business Questions&lt;/h4>
+&lt;p>Type in a natural language question like:&lt;/p>
+&lt;blockquote>
+&lt;p>“What’s the trend in profit over the past 3 months?”&lt;/p>&lt;/blockquote>
+&lt;p>The app feeds both the KPI data and the question to Ollama and returns a contextual, AI-generated answer.&lt;/p>
+&lt;hr>
+&lt;h4 id="-5-export-pdf-reports">📄 5. Export PDF Reports&lt;/h4>
+&lt;p>Generate branded PDF reports including:&lt;/p>
+&lt;ul>
+&lt;li>Title and summary section&lt;/li>
+&lt;li>Embedded KPI charts&lt;/li>
+&lt;li>Styled with your brand colors&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="-6-download-raw-data">📥 6. Download Raw Data&lt;/h4>
+&lt;p>Export your data as a CSV at any time.&lt;/p>
+&lt;hr>
+&lt;h2 id="-why-its-cool">🧠 Why It’s Cool&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Offline AI&lt;/strong>: Runs entirely on your machine with Ollama (tested with Mistral, Gemma, and Phi)&lt;/li>
+&lt;li>&lt;strong>Customizable&lt;/strong>: Plug in any dataset or model&lt;/li>
+&lt;li>&lt;strong>Scalable&lt;/strong>: Easy to repurpose for client reporting, SaaS, or internal BI tooling&lt;/li>
+&lt;li>&lt;strong>Free and Private&lt;/strong>: No API usage, no cloud costs, no data leaving your machine&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-next-steps">🚀 Next Steps&lt;/h2>
+&lt;p>I’ll continue refining it by:&lt;/p>
+&lt;ul>
+&lt;li>Adding markdown rendering in PDFs&lt;/li>
+&lt;li>Supporting advanced formatting (headings, lists)&lt;/li>
+&lt;li>Packaging it for internal use or monetization&lt;/li>
+&lt;/ul>
+&lt;p>Stay tuned — or &lt;a href="https://www.gruezo.com/resume#contact" target="_blank" rel="noopener noreferrer">reach out&lt;/a> if you want help building something like this for your team.&lt;/p>
+&lt;hr></content></item><item><title>Resources</title><link>https://blog.gruezo.com/resources/</link><pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate><guid>https://blog.gruezo.com/resources/</guid><description>&lt;h2 id="computer-science">Computer Science&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DMRlOf">The Structure and Interpretation of Computer Programs&lt;/a>&lt;/strong> - Harold Abelson&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/423oZIY">Computer Systems - A Programmer&amp;rsquo;s Perspective&lt;/a>&lt;/strong> - Randall E. Bryant &amp;amp; David R. O&amp;rsquo;Hallaron&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/41XYF2V">The Algorithm Design Manual&lt;/a>&lt;/strong> - Steven S. Skiena&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3FnMTpX">A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills&lt;/a>&lt;/strong> – Jay Wengrow&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4bPDKCn">Mathematics for Computer Science&lt;/a>&lt;/strong> - Eric Lehman, F. Thomson Leighton, &amp;amp; Albert R. Meyer&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3R4UbkN">Computer Networking - A Top Down Approach&lt;/a>&lt;/strong> - James F. Kurose&lt;/p></description><content>&lt;h2 id="computer-science">Computer Science&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DMRlOf">The Structure and Interpretation of Computer Programs&lt;/a>&lt;/strong> - Harold Abelson&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/423oZIY">Computer Systems - A Programmer&amp;rsquo;s Perspective&lt;/a>&lt;/strong> - Randall E. Bryant &amp;amp; David R. O&amp;rsquo;Hallaron&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/41XYF2V">The Algorithm Design Manual&lt;/a>&lt;/strong> - Steven S. Skiena&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3FnMTpX">A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills&lt;/a>&lt;/strong> – Jay Wengrow&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4bPDKCn">Mathematics for Computer Science&lt;/a>&lt;/strong> - Eric Lehman, F. Thomson Leighton, &amp;amp; Albert R. Meyer&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3R4UbkN">Computer Networking - A Top Down Approach&lt;/a>&lt;/strong> - James F. Kurose&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4hwUIqm">Crafting Interpreters&lt;/a>&lt;/strong> - Robert Nystrom&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4bPiDQA">Designing Data-Intensive Applications - The Big Ideas Behind Reliable, Scalable, and Maintainable Systems&lt;/a>&lt;/strong> - Martin Kleppmann&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/43H7PSE">Distributed Systems&lt;/a>&lt;/strong> - Maarten Van Steen, Andrew S. Tanenbaum&lt;/p>&lt;/blockquote>
+&lt;h2 id="data-science">Data Science&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3Dr9Gk5">Introducing Python - Modern Computing in Simple Packages&lt;/a>&lt;/strong> - Bill Lubanovic&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3R4NYFv">An Introduction to Statistical Learning with Applications in Python&lt;/a>&lt;/strong> - Gareth James&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4htLvz9">Fluent Python - Clear, Concise, and Effective Programming&lt;/a>&lt;/strong> - Luciano Ramahlo&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/41ZT10a">Learning SQL - Generate, Manipulate, and Retrieve Data&lt;/a>&lt;/strong> - Alan Beaulieu&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DrngUz">Python for Data Analysis - Data Wrangling with NumPy, Pandas &amp;amp; Jupyter&lt;/a>&lt;/strong> - Wes McKinney&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3FBcICI">Python Data Science Handbook - Essential Tools for Working with Data&lt;/a>&lt;/strong> - Jake VanderPlas&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3Ds849H">Hands-On Machine Learning with Scikit-Learn, Keras &amp;amp; TensorFlow - Concepts, Tools, and Techniques to Build Intelligent Systems&lt;/a>&lt;/strong> – Aurélien Géron&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4hwPWZY">AI and Machine Learning for Coders - A Programmer&amp;rsquo;s Guide to Artificial Intelligence&lt;/a>&lt;/strong> - Laurence Moroney&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4iN5eLe">Applied Machine Learning and AI for Engineers - Solve Business Problems That Can&amp;rsquo;t Be Solved Algorithmically&lt;/a>&lt;/strong> - Jeff Prosise&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/4iqKr0b">Architecture Patterns with Python - Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices&lt;/a>&lt;/strong> - Harry J.W. Percival &amp;amp; Bob Gregory&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://amzn.to/3DE84TV">Designing Machine Learning Systems - An Iterative Process for Production-Ready Applications&lt;/a>&lt;/strong> - Chip Huyen&lt;/p>&lt;/blockquote></content></item><item><title>About</title><link>https://blog.gruezo.com/about/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://blog.gruezo.com/about/</guid><description>&lt;h1 id="journey-from-initiate-to-grand-archmage">Journey from Initiate to Grand Archmage&lt;/h1>
+&lt;p>Hey, I’m Alexander, but you can call me Alex. I&amp;rsquo;m on a journey to master AI, machine learning, and data-driven problem-solving. Where that takes me, I don&amp;rsquo;t know. But I am looking forward to seeing what comes out of it.&lt;/p>
+&lt;p>I hold a Master’s in Data Science and an MBA in Organizational Management: Business Analytics, giving me a unique blend of technical expertise and strategic decision-making skills. My passion lies in building AI systems, designing scalable ML pipelines, and leveraging data to drive intelligent business solutions.&lt;/p></description><content>&lt;h1 id="journey-from-initiate-to-grand-archmage">Journey from Initiate to Grand Archmage&lt;/h1>
+&lt;p>Hey, I’m Alexander, but you can call me Alex. I&amp;rsquo;m on a journey to master AI, machine learning, and data-driven problem-solving. Where that takes me, I don&amp;rsquo;t know. But I am looking forward to seeing what comes out of it.&lt;/p>
+&lt;p>I hold a Master’s in Data Science and an MBA in Organizational Management: Business Analytics, giving me a unique blend of technical expertise and strategic decision-making skills. My passion lies in building AI systems, designing scalable ML pipelines, and leveraging data to drive intelligent business solutions.&lt;/p>
+&lt;p>After earning my degrees, I realized that formal education was just the beginning. So, I designed the following learning path in AI, ML, and data systems wizardry:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;strong>Initiate&lt;/strong>&lt;/em> – Learn Python, discrete math, probability, and fundamental data handling&lt;/p>
+&lt;p>&lt;em>&lt;strong>Apprentice&lt;/strong>&lt;/em> – Learn linear algebra, SQL operations, and probability&lt;/p>
+&lt;p>&lt;em>&lt;strong>Acolyte&lt;/strong>&lt;/em> – Learn proof writing, data extraction, and foundational ML models&lt;/p>
+&lt;p>&lt;em>&lt;strong>Adept&lt;/strong>&lt;/em> - Master calculus, real analysis, and data manipulation&lt;/p>
+&lt;p>&lt;em>&lt;strong>Journeyman&lt;/strong>&lt;/em> - Apply multivariable calculus, deep learning, and model scaling&lt;/p>
+&lt;p>&lt;em>&lt;strong>Mage&lt;/strong>&lt;/em> - Master reinforcement learning, Bayesian methods, and AI product development&lt;/p>
+&lt;p>&lt;em>&lt;strong>Master Mage&lt;/strong>&lt;/em> - Architect scalable AI systems, advance AI ethics, and build AI infrastructure&lt;/p>
+&lt;p>&lt;em>&lt;strong>Archmage&lt;/strong>&lt;/em> - Lead AI research teams, define industry-wide AI best practices, and influence AI strategy&lt;/p>
+&lt;p>&lt;em>&lt;strong>Grand Archmage&lt;/strong>&lt;/em> - Revolutionize AI through global AI strategy, governance, and innovation&lt;/p>&lt;/blockquote>
+&lt;p>When I’m not experimenting with machine learning models or fine-tuning AI systems, you’ll probably find me working out, doing Filipino martial arts, or hacking away on my laptop.&lt;/p>
+&lt;p>In this blog, I share what I learn — whether it’s experimenting with AI, exploring financial forecasting, or breaking down complex ML concepts. Let’s build, learn, and push forward together!&lt;/p></content></item></channel></rss>
